@@ -6,6 +6,7 @@
 
 /**#### Fonte ####*/
 
+
 header h1{
     color: rgb(250, 252, 125);
     
@@ -20,6 +21,10 @@ header a{
 }
 
 /**#### header ####*/
+
+body{
+    background-color: #F7FAF5;
+}
 
 header{
     background-color: rgb(60, 76, 80);
@@ -82,22 +87,24 @@ section .container img{
     width: 1100px;
     height: auto;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section img,
+button{
+    box-shadow: 10px 6px 5px rgb(44, 44, 44);
 }
 
 .section {
     padding: 24px 0;
 }
 
-
-section .container{
-    display: flex;
-    align-items: self-start
-}
-
 .download{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
 .download button{
@@ -108,23 +115,59 @@ section .container{
     font-size: 48px;
     cursor: pointer;
     border: none;
+    margin-top: 50px;
 }
 
 .download button:hover{
     background-color: rgb(209, 191, 91);
 }
 
-.download button 
-
-
 /*#### sections ####*/
 
-.about p {
-    
+section .container{
+    display: flex;
+    align-items: self-start;
+    margin-bottom: 150px;
+}
+
+section p,
+h2{
+    margin: 10px 16px 0px 40px;
+}
+
+#cadastro .container h2{
+    display: block;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+#cadastro .container{
+    background-color: rgb(250, 252, 125);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center ;
+}
+
+form input,
+textarea,
+form button{
+    display: block;
+    width: 420px;
+    margin-bottom: 15px;
+    padding: 8px;
+    box-shadow: 10px 6px 10px rgb(44, 44, 44);
+}
+
+textarea{
+    resize: none;
+    height: 180px;
 }
 
 
 
-
-
 /*#### footer ####*/
+
+.socialLinks img{
+    height: 24px;
+}
